@@ -3,6 +3,7 @@ package com.assignment4;
 import com.assignment4.dip.incorrect.Classic;
 import com.assignment4.dip.incorrect.MusicPlayer;
 import com.assignment4.dip.incorrect.Rap;
+import com.assignment4.ocp.incorrect.RunOCP;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -21,5 +22,13 @@ public class TestQuestion3Incorrect {
     @Test
     public void testClassic() throws Exception {
         Assert.assertEquals(musicPlayer.playClassic().getClass(), classic.getClass());
+    }
+
+    /* OCP Test */
+
+    @Test
+    public void testRadius() throws Exception {
+        RunOCP run = new RunOCP();
+        Assert.assertEquals(run.a(), 1);
     }
 }
