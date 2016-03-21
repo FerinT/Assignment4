@@ -8,12 +8,12 @@ public class Square implements Shape {
         return 50;
     }
 
-    @Override
+
     public int getLength() {
         return 30;
     }
 
-    @Override
+
     public int getWidth() {
         return 5;
     }

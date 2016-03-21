@@ -1,42 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="16" started-at="2016-03-20T22:54:01Z" finished-at="2016-03-20T22:54:01Z">
+  <suite name="Command line suite" duration-ms="18" started-at="2016-03-21T09:18:17Z" finished-at="2016-03-21T09:18:17Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="16" started-at="2016-03-20T22:54:01Z" finished-at="2016-03-20T22:54:01Z">
+    <test name="Command line test" duration-ms="18" started-at="2016-03-21T09:18:17Z" finished-at="2016-03-21T09:18:17Z">
       <class name="com.assignment4.TestQuestion3Incorrect">
-        <test-method status="PASS" signature="testRadius()[pri:0, instance:com.assignment4.TestQuestion3Incorrect@1a1472d]" name="testRadius" duration-ms="1" started-at="2016-03-21T00:54:01Z" finished-at="2016-03-21T00:54:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRadius -->
-        <test-method status="PASS" signature="testClassic()[pri:0, instance:com.assignment4.TestQuestion3Incorrect@1a1472d]" name="testClassic" duration-ms="0" started-at="2016-03-21T00:54:01Z" finished-at="2016-03-21T00:54:01Z">
+        <test-method status="PASS" signature="testClassic()[pri:0, instance:com.assignment4.TestQuestion3Incorrect@1256a73]" name="testClassic" duration-ms="0" started-at="2016-03-21T11:18:17Z" finished-at="2016-03-21T11:18:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClassic -->
-        <test-method status="PASS" signature="testRap()[pri:0, instance:com.assignment4.TestQuestion3Incorrect@1a1472d]" name="testRap" duration-ms="0" started-at="2016-03-21T00:54:01Z" finished-at="2016-03-21T00:54:01Z">
+        <test-method status="PASS" signature="testLiskovRadius()[pri:0, instance:com.assignment4.TestQuestion3Incorrect@1256a73]" name="testLiskovRadius" duration-ms="0" started-at="2016-03-21T11:18:17Z" finished-at="2016-03-21T11:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLiskovRadius -->
+        <test-method status="PASS" signature="testLiskovWidth()[pri:0, instance:com.assignment4.TestQuestion3Incorrect@1256a73]" name="testLiskovWidth" duration-ms="0" started-at="2016-03-21T11:18:17Z" finished-at="2016-03-21T11:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLiskovWidth -->
+        <test-method status="PASS" signature="testRadius()[pri:0, instance:com.assignment4.TestQuestion3Incorrect@1256a73]" name="testRadius" duration-ms="0" started-at="2016-03-21T11:18:17Z" finished-at="2016-03-21T11:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRadius -->
+        <test-method status="PASS" signature="testRap()[pri:0, instance:com.assignment4.TestQuestion3Incorrect@1256a73]" name="testRap" duration-ms="0" started-at="2016-03-21T11:18:17Z" finished-at="2016-03-21T11:18:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRap -->
       </class> <!-- com.assignment4.TestQuestion3Incorrect -->
       <class name="com.assignment4.TestQuestion3Correct">
-        <test-method status="PASS" signature="testCircleRadius()[pri:0, instance:com.assignment4.TestQuestion3Correct@1cd1cea]" name="testCircleRadius" duration-ms="5" started-at="2016-03-21T00:54:01Z" finished-at="2016-03-21T00:54:01Z">
+        <test-method status="PASS" signature="testCircleRadius()[pri:0, instance:com.assignment4.TestQuestion3Correct@16de4e1]" name="testCircleRadius" duration-ms="5" started-at="2016-03-21T11:18:17Z" finished-at="2016-03-21T11:18:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCircleRadius -->
-        <test-method status="PASS" signature="testSquareRadius()[pri:0, instance:com.assignment4.TestQuestion3Correct@1cd1cea]" name="testSquareRadius" duration-ms="1" started-at="2016-03-21T00:54:01Z" finished-at="2016-03-21T00:54:01Z">
+        <test-method status="PASS" signature="testRadius()[pri:0, instance:com.assignment4.TestQuestion3Correct@16de4e1]" name="testRadius" duration-ms="0" started-at="2016-03-21T11:18:17Z" finished-at="2016-03-21T11:18:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSquareRadius -->
-        <test-method status="PASS" signature="testClassic()[pri:0, instance:com.assignment4.TestQuestion3Correct@1cd1cea]" name="testClassic" duration-ms="0" started-at="2016-03-21T00:54:01Z" finished-at="2016-03-21T00:54:01Z">
+        </test-method> <!-- testRadius -->
+        <test-method status="PASS" signature="testClassic()[pri:0, instance:com.assignment4.TestQuestion3Correct@16de4e1]" name="testClassic" duration-ms="0" started-at="2016-03-21T11:18:17Z" finished-at="2016-03-21T11:18:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testClassic -->
-        <test-method status="PASS" signature="testRap()[pri:0, instance:com.assignment4.TestQuestion3Correct@1cd1cea]" name="testRap" duration-ms="0" started-at="2016-03-21T00:54:01Z" finished-at="2016-03-21T00:54:01Z">
+        <test-method status="PASS" signature="testSquareArea()[pri:0, instance:com.assignment4.TestQuestion3Correct@16de4e1]" name="testSquareArea" duration-ms="0" started-at="2016-03-21T11:18:17Z" finished-at="2016-03-21T11:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareArea -->
+        <test-method status="PASS" signature="testRap()[pri:0, instance:com.assignment4.TestQuestion3Correct@16de4e1]" name="testRap" duration-ms="0" started-at="2016-03-21T11:18:17Z" finished-at="2016-03-21T11:18:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRap -->
+        <test-method status="PASS" signature="testSquareRadius()[pri:0, instance:com.assignment4.TestQuestion3Correct@16de4e1]" name="testSquareRadius" duration-ms="0" started-at="2016-03-21T11:18:17Z" finished-at="2016-03-21T11:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRadius -->
       </class> <!-- com.assignment4.TestQuestion3Correct -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->

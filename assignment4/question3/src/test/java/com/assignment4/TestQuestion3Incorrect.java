@@ -3,14 +3,15 @@ package com.assignment4;
 import com.assignment4.dip.incorrect.Classic;
 import com.assignment4.dip.incorrect.MusicPlayer;
 import com.assignment4.dip.incorrect.Rap;
+import com.assignment4.liskov.incorrect.RunLiskov;
 import com.assignment4.ocp.incorrect.RunOCP;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-/**
- * Created by student on 2016/03/20.
- */
+
 public class TestQuestion3Incorrect {
+
+    /* Test DIP */
     MusicPlayer musicPlayer = new MusicPlayer();
     Rap rap = new Rap();
     Classic classic = new Classic();
@@ -30,5 +31,16 @@ public class TestQuestion3Incorrect {
     public void testRadius() throws Exception {
         RunOCP run = new RunOCP();
         Assert.assertEquals(run.a(), 1);
+    }
+
+    /* Test Liskov */
+    RunLiskov runLiskov = new RunLiskov();
+    @Test
+    public void testLiskovRadius() throws Exception {
+        Assert.assertEquals(runLiskov.getCircleRadius(),2);
+    }
+    @Test
+    public void testLiskovWidth() throws Exception {
+        Assert.assertEquals(runLiskov.getSquareWidth(),5);
     }
 }

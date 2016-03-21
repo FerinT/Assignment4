@@ -8,7 +8,7 @@ import com.assignment4.liskov.correct.Shape;
  */
 public class Circle implements Shape, CircularShape {
 
-    @Override
+
     public int getRadius() {
         return 20;
     }
@@ -17,12 +17,12 @@ public class Circle implements Shape, CircularShape {
         return 10;
     }
 
-    @Override
+
     public int getLength() {
         return 15;
     }
 
-    @Override
+
     public int getWidth() {
         return 12;
     }
