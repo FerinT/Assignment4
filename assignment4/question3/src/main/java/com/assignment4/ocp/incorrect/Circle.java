@@ -8,6 +8,6 @@ package com.assignment4.ocp.incorrect;
 public class Circle extends CalculateRadius {
     public Circle()
     {
-        super.shapeType = "circle";
+        super.setShapeType("circle");
     }
 }

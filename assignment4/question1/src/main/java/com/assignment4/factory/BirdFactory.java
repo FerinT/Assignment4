@@ -1,6 +1,6 @@
-package com.assignment4.birdFactory;
+package com.assignment4.factory;
 
-import com.assignment4.Bird;
+import com.assignment4.domain.Bird;
 
 
 public abstract class BirdFactory {
@@ -13,6 +13,7 @@ public abstract class BirdFactory {
             birdObj = new Bird();
             birdObj.setColor("grey");
             birdObj.setFlightSpeed(100);
+            birdObj.setSpecies("Eagle");
             birdObj.setWeight(50);
         }
 
@@ -20,6 +21,7 @@ public abstract class BirdFactory {
             birdObj = new Bird();
             birdObj.setColor("grey");
             birdObj.setFlightSpeed(75);
+            birdObj.setSpecies("Owl");
             birdObj.setWeight(25);
         }
 

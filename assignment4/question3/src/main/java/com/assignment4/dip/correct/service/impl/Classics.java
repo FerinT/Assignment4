@@ -11,14 +11,5 @@ public class Classics implements Genre{
         return "this is classic";
     }
 
-    public Genre changeSong(Genre genre) {
-        Genre rap = new Rap();
-        Genre g;
-        if(!(genre.equals(this)))
-            g = this;
-        else
-            g = rap;
 
-        return g;
-    }
 }

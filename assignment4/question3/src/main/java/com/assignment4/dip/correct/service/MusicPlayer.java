@@ -17,15 +17,5 @@ public class MusicPlayer {
         return new Classics();
     }
 
-    /*public static void main(String[] args) {
-        Genre genre = new Rap();
-        Genre g;
-        g = genre.changeSong(genre);
-        genre = g;
-        g = genre.changeSong(genre);
-        genre = g;
-        g = genre.changeSong(genre);
-        genre = g;
-        System.out.println(genre.getGenre());
-    }*/
+
 }

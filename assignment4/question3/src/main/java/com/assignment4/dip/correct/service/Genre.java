@@ -5,5 +5,5 @@ package com.assignment4.dip.correct.service;
  */
 public interface Genre {
     String getGenre();
-    Genre changeSong(Genre genre);
+
 }

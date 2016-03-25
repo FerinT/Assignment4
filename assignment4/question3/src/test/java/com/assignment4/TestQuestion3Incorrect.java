@@ -30,7 +30,7 @@ public class TestQuestion3Incorrect {
     @Test
     public void testRadius() throws Exception {
         RunOCP run = new RunOCP();
-        Assert.assertEquals(run.a(), 1);
+        Assert.assertEquals(run.getCircle(), 1);
     }
 
     /* Test Liskov */

@@ -1,4 +1,4 @@
-package com.assignment4;
+package com.assignment4.domain;
 
 public class Bird {
 

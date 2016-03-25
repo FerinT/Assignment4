@@ -1,7 +1,7 @@
 package com.assignment4.question2;
 
-import com.assignment4.Bird;
-import com.assignment4.birdFactory.BirdFactory;
+import com.assignment4.domain.Bird;
+import com.assignment4.factory.BirdFactory;
 
 
 /* using composition in favour of inheritance */

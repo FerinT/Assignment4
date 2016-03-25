@@ -4,11 +4,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestQuestion1 {
-
+    RunBird runBird = new RunBird();
     @Test
     public void testBirdType() throws Exception {
-        RunBird r = new RunBird();
-
-        Assert.assertEquals(r.testBird().getWeight(), 25);
+        Assert.assertEquals(runBird.testBird().getWeight(), 25);
+    }
+    @Test
+    public void testBird() throws Exception {
+        Assert.assertTrue(runBird.testBird().getSpecies().equalsIgnoreCase("Owl"));
     }
 }

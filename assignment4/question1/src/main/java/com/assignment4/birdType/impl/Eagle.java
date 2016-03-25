@@ -1,8 +1,8 @@
 package com.assignment4.birdType.impl;
 
-import com.assignment4.Bird;
+import com.assignment4.domain.Bird;
 
-import com.assignment4.birdFactory.BirdFactory;
+import com.assignment4.factory.BirdFactory;
 import com.assignment4.birdType.TypeOfBird;
 
 /**

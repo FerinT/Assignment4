@@ -4,7 +4,7 @@ package com.assignment4.question2;
 // You can access public methods and variables with out creating an object
 // You can also add your own methods
 
-import com.assignment4.Bird;
+import com.assignment4.domain.Bird;
 
 public class ParrotInhertance extends Bird {
 
